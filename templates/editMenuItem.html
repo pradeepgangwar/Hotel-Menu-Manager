@@ -9,7 +9,11 @@
 
 <form action = "{{url_for('editMenuItem', restaurant_id = restaurant_id, menu_id = i.id)}}" method = "POST">
 	<p>Edit Name</p>
-	<input type="text" name="name" size="30" placeholder="{{i.name}}">
+	<input type="text" name="name" size="30" placeholder="{{i.name}}"><br>
+	<p> Description </p>
+	<input type="text" name="description" size="250" placeholder="{{i.description}}"><br>
+	<p> Price </p>
+	<input type="text" name="price" size="8" placeholder="{{i.price}}"><br>
 	<input type="submit" value="Edit">
 
 </form>

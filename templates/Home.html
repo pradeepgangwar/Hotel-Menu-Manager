@@ -15,6 +15,9 @@
 {% for i in restaurants %}
 
 <a href="{{url_for('restaurantMenu', restaurant_id = i.id )}}"> {{i.name}} </a>
+<br>
+<a href="{{url_for('editRestaurant', restaurant_id = i.id )}}"> Edit </a> &nbsp; &nbsp;
+<a href="{{url_for('deleteRestaurant', restaurant_id = i.id )}}"> Delete </a>
 
 <br>
 <br>

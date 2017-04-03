@@ -1,6 +1,6 @@
 # This is a basic Hotel menu manager type application
 
-## This application uses Python based FLASK framework for its backend and SQL for database.
+## This application uses Python based FLASK framework for its backend and SQL for database. This is made while learning flask from online sources. 
 
 To Get this application running Download this repository as a **zip file** and extract it in the desired directory.
 
